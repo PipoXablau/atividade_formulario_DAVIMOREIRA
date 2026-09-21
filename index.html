@@ -1,11 +1,57 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario</title>
 </head>
+
 <body>
-    
+    <h1>Exemplo Formulário em HTML</h1>
+    <h2>Exemplo 01</h2>
+    <form action="">
+        <input type="text" name="nome" placeholder="Digite seu nome:">
+        <input type="email" name="email" placeholder="Digite seu e-mail:">
+        <input type="date" name="nascimento">
+        <input type="tel" name="Telefone" placeholder="Celular">
+        <input type="password" id="pin" name="pin" maxlength="4" placeholder="Senha">
+        <input type="submit" value="Cadastrar">
+    </form>
+    <h2>Exemplo 02</h2>
+    <textarea name="mensagem" rows="4" cols="50" placeholder="Digite sua mensagem"></textarea>
+    <h3>Exemplo 03</h3>
+    <fieldset>
+        <legend>Formulário</legend>
+        <form action="">
+            Nome: <input type="text" name="nome" placeholder="Digite seu nome:">
+            <br>
+            <br>
+            Sexo: <input type="radio" name="sexo" value="masculino"> Masculino
+            <input type="radio" name="sexo" value="feminino"> Feminino 
+            <br>
+            <br>
+            País: <select name="pais">
+                <option>Selecione uma opção</option>
+                <option>Brasil</option>
+                <option>Argentina</option>
+                <option>Chile</option>
+            </select>
+            <br>
+            <br>
+            Mensagem:
+            <br> <textarea name="mensagem" rows="4" cols="50"></textarea>
+            <br>
+            <br>
+            <input type="checkbox" name="veiculo1" value="Bicicleta"> Assinar Newsletter?
+            <br>
+            <br>
+            <input type="submit" value="Enviar">
+
+    </fieldset>
+    <h2>Exemplo 04</h2>
+    <input type="url" name="website">
+    <input type="submit" value="Clique para pesquisar">
 </body>
+
 </html>
